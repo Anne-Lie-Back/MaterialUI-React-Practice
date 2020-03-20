@@ -57,9 +57,9 @@ export default function SimpleTabs() {
     <div className={classes.root}>
       <AppBar position="static">
         <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
-          <Tab component={RouterLink} to ='/' label="Item One" {...a11yProps(0)} />
-          <Tab component={RouterLink} to ='FormPage' label="Item Two" {...a11yProps(1)} />
-          <Tab component={RouterLink} to ='Other' label="Item Three" {...a11yProps(2)} />
+          <Tab component={RouterLink} to ='/' label="Hem" {...a11yProps(0)} />
+          <Tab component={RouterLink} to ='FormPage' label="Formulär" {...a11yProps(1)} />
+          <Tab component={RouterLink} to ='Other' label="Annat" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
       <NavBar value={value} index={0}>
